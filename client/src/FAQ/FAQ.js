@@ -35,6 +35,7 @@ function FAQ() {
     rowTitleColor: "black",
     // rowContentColor: 'grey',
     // arrowColor: "red",
+   
   };
   
   const config = {

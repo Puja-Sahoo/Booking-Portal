@@ -629,35 +629,7 @@ const TravellerInfoInputMedia = ({ travellerType, travellerNo }) => {
                 Outline.outlineDob === "DOB" ? "check" : null
               }`}
             >
-              <div
-                className={`dateOfBirthMonthMedia ${
-                  travellerDOB.Month ? "check" : null
-                }`}
-                onClick={() => {
-                  setDropDown((prev) => !prev);
-                }}
-                ref={ref}
-              >
-                {travellerDOB.Month ? travellerDOB.Month : "Month"}
-
-                <div className="monthDropDownWrapperMedia">
-                  <MonthDropDown
-                    open={dropDown}
-                    monthselection={travellerDOB.Month}
-                    setMonthSelection={(val) => {
-                      setTravellerDOB((prev) => {
-                        return { prev, Month: val };
-                      });
-                    }}
-                    DOB={travellerDOB}
-                    setError={(val) => {
-                      setErr((prev) => {
-                        return { prev, errDobDay: val };
-                      });
-                    }}
-                  />
-                </div>
-              </div>
+              
               <div
                 className={`dateOfBirthDayMedia ${
                   Outline === "DD" ? "check" : null
@@ -685,6 +657,36 @@ const TravellerInfoInputMedia = ({ travellerType, travellerNo }) => {
                     borderValidationDob();
                   }}
                 />
+              </div>
+              <div
+                className={`dateOfBirthMonthMedia ${
+                  travellerDOB.Month ? "check" : null
+                }`}
+                onClick={() => {
+                  setDropDown((prev) => !prev);
+                }}
+                ref={ref}
+              >
+                {travellerDOB.Month ? travellerDOB.Month : "Month"}
+
+                <div className="monthDropDownWrapperMedia">
+                  <MonthDropDown
+                    
+                    open={dropDown}
+                    monthselection={travellerDOB.Month}
+                    setMonthSelection={(val) => {
+                      setTravellerDOB((prev) => {
+                        return { prev, Month: val };
+                      });
+                    }}
+                    DOB={travellerDOB}
+                    setError={(val) => {
+                      setErr((prev) => {
+                        return { prev, errDobDay: val };
+                      });
+                    }}
+                  />
+                </div>
               </div>
               <div
                 className={`dateOfBirthYearMedia ${

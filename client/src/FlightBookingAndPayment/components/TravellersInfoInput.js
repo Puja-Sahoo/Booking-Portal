@@ -481,14 +481,14 @@ const TravellerInfoInput = ({ travellerType, travellerNo }) => {
             }}
           />
         ) : null}
-      <div
+      {/* <div
         className={`travellerInfoInputDetailsInstruction  ${
           travellerNo === 1 ? "Primary" : null
         }`}
       >
         Enter traveler name(s) and date(s) of birth exactly as shown on the
         passport or other government-issued photo ID to be used on this trip.
-      </div>
+      </div> */}
       <div
         className={`travellerEmailContainerDesktop  ${
           travellerNo === 1 ? "Primary" : null

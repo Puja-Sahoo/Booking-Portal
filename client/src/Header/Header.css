@@ -149,14 +149,25 @@
   margin: 0.5rem 1.2rem 0 0.5rem;
 }
 .cancellationContainer {
-  color: rgb(170, 149, 32);
+  color: rgb(237, 5, 5);
+  font-size: 1.1rem;
+
+
 }
 .callUsIcon {
   margin: 0 0.2rem 0 0;
+  /* display: inline-block; */
+}
+.vcallUsIcon{
+  display: inline-block;
+  font-size: 22px;
+  align-items: center;
+  padding: 0.5rem;
+  color: rgb(237, 5, 5);
 }
 .contactUsContainer {
   display: flex;
-  color: rgb(6, 94, 28);
+  color: rgb(237, 5, 5);
 }
 
 .verifiedUserWrapper {
@@ -253,13 +264,22 @@
      
   }
   .cancellationContainer {
-    font-size: 0.67rem;
+    color: rgb(237, 5, 5);
+    font-size: 1.1rem;
+  }
+  .vcallUsIcon{
+    display: inline-block;
+    font-size: 22px;
+    align-items: center;
+    padding: 0.5rem;
+    color: rgb(237, 5, 5);
   }
   .callUsIcon {
     margin: 0 0.2rem 0 0;
   }
   .contactUsContainer {
     font-size: 0.67rem;
+    color: rgb(237, 5, 5);
   }
 }
 @media screen and (max-width: 1120px) {
@@ -297,13 +317,22 @@
      
   }
   .cancellationContainer {
-    font-size: 0.67rem;
+    color: rgb(237, 5, 5);
+    font-size: 1.1rem;
+  }
+  .vcallUsIcon{
+    display: inline-block;
+    font-size: 22px;
+    align-items: center;
+    padding: 0.5rem;
+    color: rgb(237, 5, 5);
   }
   .callUsIcon {
     margin: 0 0.2rem 0 0;
   }
   .contactUsContainer {
     font-size: 0.67rem;
+    color: rgb(237, 5, 5);
   }
 }
 @media screen and (max-width: 1024px) {
@@ -336,13 +365,22 @@
      
   }
   .cancellationContainer {
-    font-size: 0.67rem;
+    color: rgb(237, 5, 5);
+    font-size: 1.1rem;
+  }
+  .vcallUsIcon{
+    display: inline-block;
+    font-size: 22px;
+    align-items: center;
+    padding: 0.5rem;
+    color: rgb(237, 5, 5);
   }
   .callUsIcon {
     margin: 0 0.2rem 0 0;
   }
   .contactUsContainer {
     font-size: 0.67rem;
+    color: rgb(237, 5, 5);
   }
 }
 
@@ -376,13 +414,22 @@
      
   }
   .cancellationContainer {
-    font-size: 0.67rem;
+    color: rgb(237, 5, 5);
+    font-size: 1.1rem;
   }
   .callUsIcon {
     margin: 0 0.2rem 0 0;
   }
   .contactUsContainer {
     font-size: 0.67rem;
+    color: rgb(237, 5, 5);
+  }
+  .vcallUsIcon{
+    display: inline-block;
+    font-size: 22px;
+    align-items: center;
+    padding: 0.5rem;
+    color: rgb(237, 5, 5);
   }
 }
 @media screen and (max-width: 770px) {
@@ -418,13 +465,22 @@
      
   }
   .cancellationContainer {
-    font-size: 0.67rem;
+    color: rgb(237, 5, 5);
+    font-size: 1.1rem;
   }
   .callUsIcon {
     margin: 0 0.2rem 0 0;
   }
   .contactUsContainer {
     font-size: 0.67rem;
+    color: rgb(237, 5, 5);
+  }
+  .vcallUsIcon{
+    display: inline-block;
+    font-size: 22px;
+    align-items: center;
+    padding: 0.5rem;
+    color: rgb(237, 5, 5);
   }
 }
 @media screen and (max-width: 480px) {
@@ -457,13 +513,22 @@
      
   }
   .cancellationContainer {
-    font-size: 0.67rem;
+    color: rgb(237, 5, 5);
+    font-size: 1.1rem;
   }
   .callUsIcon {
     margin: 0 0.2rem 0 0;
   }
   .contactUsContainer {
     font-size: 0.67rem;
+    color: rgb(237, 5, 5);
+  }
+  .vcallUsIcon{
+    display: inline-block;
+    font-size: 22px;
+    align-items: center;
+    padding: 0.5rem;
+    color: rgb(237, 5, 5);
   }
 }
 @media screen and (max-width: 420px) {
@@ -505,13 +570,22 @@
     display: none;
   }
   .cancellationContainer {
-    font-size: 0.67rem;
+    color: rgb(237, 5, 5);
+    font-size: 1.1rem;
   }
   .callUsIcon {
     margin: 0 0.2rem 0 0;
   }
+  .vcallUsIcon{
+    display: inline-block;
+    font-size: 22px;
+    align-items: center;
+    padding: 0.5rem;
+    color: rgb(237, 5, 5);
+  }
   .contactUsContainer {
     font-size: 0.67rem;
+    color: rgb(237, 5, 5);
   }
 }
 @media screen and (max-width: 380px) {
@@ -539,11 +613,13 @@
     margin: 0.8rem 0rem 0 0.5rem;
   }
   .cancellationContainer {
-    font-size: 0.67rem;
+    color: rgb(237, 5, 5);
+    font-size: 1.1rem;
   }
 
   .contactUsContainer {
     font-size: 0.67rem;
+    color: rgb(237, 5, 5);
   }
 }
 @media screen and (max-width: 360px) {
@@ -558,13 +634,22 @@
     margin: 0.8rem 0rem 0 0.5rem;
   }
   .cancellationContainer {
-    font-size: 0.5rem;
+    color: rgb(237, 5, 5);
+  font-size: 1.rem;
   }
   .callUsIcon {
     margin: 0 0.2rem 0 0;
   }
+  .vcallUsIcon{
+    display: inline-block;
+    font-size: 22px;
+    align-items: center;
+    padding: 0.5rem;
+    color: rgb(237, 5, 5);
+  }
   .contactUsContainer {
     font-size: 0.5rem;
+    color: rgb(237, 5, 5);
   }
 }
 @media screen and (max-width: 320px) {
@@ -579,12 +664,21 @@
     margin: 1rem 0rem 0 0.5rem;
   }
   .cancellationContainer {
-    font-size: 0.46rem;
+    color: rgb(237, 5, 5);
+    font-size: 0.8rem;
   }
   .callUsIcon {
     margin: 0 0.2rem 0 0;
   }
+  .vcallUsIcon{
+    display: inline-block;
+    font-size: 22px;
+    align-items: center;
+    padding: 0.5rem;
+    color: rgb(237, 5, 5); 
+  }
   .contactUsContainer {
-    font-size: 0.46rem;
+    font-size: 0.46rem;  
+    color: rgb(237, 5, 5);
   }
 }

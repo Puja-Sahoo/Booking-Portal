@@ -181,16 +181,17 @@ const Header = () => {
             </div>
           </div>
           <div class="mobile-hidden">
-            <div className="cancellationContainer">24 hours Cancellation! </div>
+            <div className="cancellationContainer">1800-flyOkart </div>
             <a href="tel:+1800" style={{ textDecoration: "none" }}>
               <div className="contactUsContainer">
-                <div className="callUsIcon">
+                {/* <div className="callUsIcon">
                   <i class="fas fa-phone-alt"></i>
-                </div>
-                Call Us at 1800-FlyOkart
+                </div> */}
+                Speak to our expert!
               </div>
             </a>
           </div>
+          <div className="vcallUsIcon mobile-hidden"><i class="fas fa-phone-alt"></i></div>
         </div>
         {openRegistersignInModal ? (
           <LoginRegisterModal

@@ -82,7 +82,7 @@ const PopularFilters = ({ selectedFilter, setSelectedFilter }) => {
               <div className="popularFilterIcon">
                 <i class="fas fa-tag"></i>
               </div>
-              Cheapest
+             Non-Stop
             </div>
             <div className="popularFilterAvegragePrice">{CurrencySymbol}
               {totalAmount1}</div>

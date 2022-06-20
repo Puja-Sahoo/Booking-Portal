@@ -145,7 +145,7 @@ useEffect(()=>{
                   />
                 </div>
                 <div className="flightDetailsAirlineName">IndiGo</div>
-                <Link className="BookingLink" to="/FlightBookingAndPayment">
+                {/* <Link className="BookingLink" to="/FlightBookingAndPayment">
                   <div
                     className="comboTotal"
                     onClick={() => {
@@ -173,7 +173,7 @@ useEffect(()=>{
                       {totalAmount}
                     </div>
                   </div>
-                </Link>
+                </Link> */}
               </div>
 
               <div className="flightDetailsItinerary">
@@ -248,6 +248,37 @@ useEffect(()=>{
             to={!checkBoxStateD ? params : "/FlightBookingAndPayment"}
             
           >
+                            <Link className="BookingLink" to="/FlightBookingAndPayment">
+                  <div
+                    className="comboTotal"
+                    onClick={() => {
+                      setTotalTrip(
+                        departureTime,
+                        destinationTime,
+                        flightPrice,
+                        id,
+                        idR,
+                        departureTimeR,
+                        destinationTimeR,
+                        flightPriceR,
+                        totalAmount,
+                        USDPrice
+                      );
+                    }}
+                  >
+                    <div className="flightCurrencySymbolCombo" >
+                      {CurrencySymbol}
+                    </div>
+                    <div
+                      className="flightCurrencyAmountCombo"
+                      onClick={() => {}}
+                    >
+                      {totalAmount}
+                    </div>
+                  </div>
+            <button className="bookNowButton">Select &#62;</button>
+
+                </Link>
             <div
             onClick={() => {
               setCheckForSelectR("Return");
@@ -419,7 +450,7 @@ useEffect(()=>{
                       flightPrice,
                       id,
                       "",
-                      "",
+                      "",   
                       "",
                       "",
                       flightPrice,

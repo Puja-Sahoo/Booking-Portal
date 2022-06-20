@@ -102,6 +102,34 @@
 .maincontainer{
   cursor: pointer;
 }
+.bookNowButton{
+  
+    margin-left: 90%;
+  width: 4rem;
+  height: 2rem;
+  color: #fff;
+  border-radius: 6px;
+  /* padding: 10px 25px; */
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  background: rgb(6,14,131);
+  background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+  border: none;
+  float :right;
+}
+.bookNowButton:hover{
+  background: rgb(0,3,255);
+  background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+}
 a:hover{
   color: #000 !important;;
 }
@@ -114,13 +142,17 @@ a:hover{
 a:hover{color:none;}
 .BookingLink,a {
   text-decoration: none;
+  
 }
 .comboTotal {
-  display: flex;
+  display: inline-flex;
   color: rgb(76, 192, 76);
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   font-weight: 600;
-  margin: 0.5rem 0 0 44.5rem;
+  margin-left: 90%;
+  /* margin: 0.2rem 0 0px 24.5rem; */
+  float: right;
+  
 }
 .selectCheckBox {
   background-color: white;
@@ -170,11 +202,13 @@ a:hover{color:none;}
     width: 68%;
   }
   .comboTotal {
-    display: flex;
+    display: inline-flex;
     color: rgb(76, 192, 76);
     font-size: 1.4rem;
     font-weight: 600;
-    margin: -0.8rem 0 0 11.5rem;
+    margin-left: 90%;
+    /* margin: 0.2rem 0 0px 24.5rem; */
+    float: right;
   }
   .layoverlocationAndTime {
     display: flex;
@@ -276,10 +310,12 @@ a:hover{color:none;}
   .flightCurrencySymbol {
     font-size: 1rem;
     margin: -0.1rem 0.1rem 0 0;
+
   }
   .flightCurrencySymbolCombo {
     font-size: 1.4rem;
     margin: -0.1rem 0.1rem 0 0;
+   
   }
 }
 @media screen and (max-width: 1120px) {
@@ -313,11 +349,14 @@ a:hover{color:none;}
     width: 68%;
   }
   .comboTotal {
-    display: flex;
+    display: inline-flex;
     color: rgb(76, 192, 76);
     font-size: 1.4rem;
     font-weight: 600;
-    margin: -0.8rem 0 0 11.5rem;
+    margin-left: 90%;
+    /* margin: 0.2rem 0 0px 24.5rem; */
+    float: right;
+    
   }
   .layoverlocationAndTime {
     display: flex;
@@ -456,11 +495,13 @@ a:hover{color:none;}
     width: 68%;
   }
   .comboTotal {
-    display: flex;
+    display: inline-flex;
     color: rgb(76, 192, 76);
     font-size: 1.4rem;
     font-weight: 600;
-    margin: -0.8rem 0 0 11.5rem;
+    margin-left: 90%;
+    /* margin: 0.2rem 0 0px 24.5rem; */
+    float: right;
   }
   .layoverlocationAndTime {
     display: flex;
@@ -599,11 +640,13 @@ a:hover{color:none;}
     width: 68%;
   }
   .comboTotal {
-    display: flex;
+    display: inline-flex;
     color: rgb(76, 192, 76);
     font-size: 1.4rem;
     font-weight: 600;
-    margin: -0.8rem 0 0 11.5rem;
+    margin-left: 90%;
+    /* margin: 0.2rem 0 0px 24.5rem; */
+    float: right;
   }
   .layoverlocationAndTime {
     display: flex;
@@ -742,11 +785,13 @@ a:hover{color:none;}
     width: 68%;
   }
   .comboTotal {
-    display: flex;
+    display: inline-flex;
     color: rgb(76, 192, 76);
     font-size: 1.4rem;
     font-weight: 600;
-    margin: -0.8rem 0 0 11.5rem;
+    margin-left: 90%;
+    /* margin: 0.2rem 0 0px 24.5rem; */
+    float: right;
   }
   .layoverlocationAndTime {
     display: flex;
@@ -885,11 +930,13 @@ a:hover{color:none;}
     width: 68%;
   }
   .comboTotal {
-    display: flex;
+    display: inline-flex;
     color: rgb(76, 192, 76);
     font-size: 1.4rem;
     font-weight: 600;
-    margin: -0.8rem 0 0 11.5rem;
+    margin-left: 90%;
+    /* margin: 0.2rem 0 0px 24.5rem; */
+    float: right;
   }
   .layoverlocationAndTime {
     display: flex;
@@ -1028,12 +1075,13 @@ a:hover{color:none;}
     width: 68%;
   }
   .comboTotal {
-    display: flex;
+    display: inline-flex;
     color: rgb(76, 192, 76);
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     font-weight: 600;
-    margin: 0rem 0 0 1rem;
-    width: max-content;
+    margin-left: 90%;
+    /* margin: 0.2rem 0 0px 24.5rem; */
+    float: right;
   }
   .layoverlocationAndTime {
     display: flex;
@@ -1174,11 +1222,13 @@ a:hover{color:none;}
     width: 68%;
   }
   .comboTotal {
-    display: flex;
+    display: inline-flex;
     color: rgb(76, 192, 76);
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     font-weight: 600;
-    margin: 0rem 0 0 0;
+    margin-left: 90%;
+    /* margin: 0.2rem 0 0px 24.5rem; */
+    float: right;
     width: max-content;
   }
   .layoverlocationAndTime {
@@ -1317,11 +1367,13 @@ a:hover{color:none;}
     width: 68%;
   }
   .comboTotal {
-    display: flex;
+    display: inline-flex;
     color: rgb(76, 192, 76);
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     font-weight: 600;
-    margin: 0rem 0 0 0;
+    margin-left: 90%;
+    /* margin: 0.2rem 0 0px 24.5rem; */
+    float: right;
     width: max-content;
   }
   .layoverlocationAndTime {
